@@ -1,0 +1,12 @@
+{
+  "name": "formulario-docker",
+  "version": "1.0.0",
+  "description": "Formulário HTML simples servido via Docker",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server . -p 8080"
+  },
+  "dependencies": {
+    "formulario-docker": "file:"
+  }
+}
